@@ -1,6 +1,6 @@
 {
   "name": "scroll-fix",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": "rhwski",
   "description": "Mouse-wheel scrolling in NPC shop and sell windows (and other lists) moves a fixed number of rows per wheel notch, instead of flying to the bottom.",
 

@@ -25,3 +25,8 @@ Changes apply when the game page reloads (Apply, then restart the client).
 ## Install
 
 Copy the `scroll-fix` folder to `%APPDATA%\Ragnarok Offline\state\mods`, or use Settings → Mods → Add mod from folder. Needs app >= 1.4.5.
+
+## Changelog
+
+**1.1.0**
+- First public release: one step per wheel notch, whole-row snapping in shop windows, camera zoom blocked while a shop is open, three settings.
