@@ -1,0 +1,39 @@
+{
+  "name": "scroll-fix",
+  "version": "0.1.0",
+  "author": "rhwski",
+  "description": "Mouse-wheel scrolling in NPC shop and sell windows (and other lists) moves a fixed number of rows per wheel notch, instead of flying to the bottom.",
+
+  "requires": {
+    "app": ">=1.4.5",
+    "era": "any"
+  },
+
+  "settings": [
+    {
+      "key": "rows_per_notch",
+      "type": "number",
+      "default": 1,
+      "min": 1,
+      "max": 10,
+      "label": "Rows per wheel notch",
+      "description": "How many list rows one notch of the mouse wheel scrolls (a row is 32 pixels)."
+    },
+    {
+      "key": "sensitivity",
+      "type": "number",
+      "default": 100,
+      "min": 20,
+      "max": 400,
+      "label": "Wheel notch size",
+      "description": "How much wheel movement counts as one notch. 100 suits normal wheels. If scrolling is still too fast on a smooth or free-spinning wheel or a touchpad, raise this; if it feels sluggish, lower it."
+    },
+    {
+      "key": "all_lists",
+      "type": "boolean",
+      "default": true,
+      "label": "Fix every scrolling list",
+      "description": "On: inventory, storage and other lists with the client's custom scrollbar behave the same way. Off: only NPC shop and sell windows."
+    }
+  ]
+}
